@@ -60,16 +60,16 @@ export default {
         scroll_section_block_1_title: "Red PKT",
         scroll_section_block_1_descr: "PKT es una cadena de bloques que permite a cualquiera convertirse en un ISP. " + "Los usuarios asignan el ancho de banda de sus conexiones locales a Internet y " + "construyen una red marginal global y descentralizada, por la gente y para la gente. \n",
         scroll_section_block_2_title: "Protocolo PacketCrypt",
-        scroll_section_block_2_descr: "PKT is a Bitcoin fork, using PacketCrypt, the world's first bandwidth-hard proof of work. " +
-        "PKT is efficiently mined when miners collaborate, and collaboration requires " +
-        "bandwidth and CPU. \n",
+        scroll_section_block_2_descr: "PKT es una fork de Bitcoin, que utiliza PacketCrypt, la primera prueba de trabajo " +
+        "de ancho de banda del mundo. PKT se mina de forma eficiente cuando los mineros " +
+        "colaboran, y la colaboración requiere ancho de banda y CPU. \n",
         scroll_section_block_3_title: "Minado de Anuncios(Announcement Mining)",
-        scroll_section_block_3_descr: "Casual miners use idle CPU time to generate small messages called announcements and " +
-        "broadcasts them to block miners who pay for them. \n",
+        scroll_section_block_3_descr: "Los mineros eventuales utilizan el tiempo ocioso de sus CPUs para generar pequeños mensajes " +
+        "llamados anuncios y los difunden a los mineros en bloque que pagan por ellos. \n",
         scroll_section_block_4_title: "Minado de Bloques (Block Mining)",
-        scroll_section_block_4_descr: "Dedicated miners use specialized equipment to secure the blockchain, \n" +
-        "but the PacketCrypt algorithm allows them to do less work if they have more announcements, \n" +
-        "effectively substituting bandwidth for CPU power. \n",
+        scroll_section_block_4_descr: "Los mineros dedicados utilizan equipos especializados para asegurar el blockchain, pero el algoritmo PacketCrypt  \n" +
+        "les permite hacer menos trabajo si tienen más anuncios, sustituyendo \n" +
+        "efectivamente el ancho de banda por potencia de CPU. \n",
         scroll_section_block_5_title: "PKT Cash",
         scroll_section_block_5_descr: "PKT is a native cryptocurrency based on Bitcoin code, making it Lightning Network \n" +
         "ready from day one. It is not a token so there is no centralized issuer and no gas fees. \n",
@@ -541,14 +541,14 @@ export default {
         setup_wallet_text_05: "To send PKT to somebody, you need to first unlock your wallet. In this example, we’re keeping the wallet unlocked for only 60 seconds, you can change the number at the end to your liking.",
         setup_wallet_text_06: "Then send cjd a 10 pkt tip.",
         setup_wallet_text_07: "For an exhaustive list of all the RPC calls you can make, use",
-        setup_wallet_button_01: "Begin Mining",
+        setup_wallet_button_01: "Comienza a minar",
         setup_wallet_button_02: "PKT Details",
-        text: "The PKT Cash wallet enables users to send and receive $PKT. Each wallet provides a public and private key that interacts directly with the PKT blockchain. The PKT command line wallet is for Linux systems. The Graphical User Interface (GUI) wallets are for Mac and Windows desktop operating systems. WPKT may only be stored in a BEP-20 wallet, such as MetaMask, available for mobile or web browser.",
-        button_1: "Setup a PKT Wallet",
-        subtitle: "Store PKT in a PKT Wallet",
+        text: "El monedero PKT Cash permite a los usuarios enviar y recibir $PKT. Cada cartera proporciona una clave pública y privada que interactúa directamente con el blockchain de PKT. El monedero de línea de comandos PKT es para sistemas Linux. Los monederos de interfaz gráfica de usuario (GUI) son para sistemas operativos de escritorio Mac y Windows. WPKT sólo puede almacenarse en un monedero BEP-20, como MetaMask, disponible para móvil o navegador web.",
+        button_1: "Configurar una billetera PKT",
+        subtitle: "Guarda PKT en una billetera PKT",
         heading_main: "There are currently several options to get a free PKT Wallet",
         description_main: "Wallets are to store PKT or wPKT. Specific wallets can be used to mine $PKT. Since PKT Cash miners can get paid every 60 seconds, using a a non-mining compatible wallet may fatally damage the wallet's ability to access the PKT balance.",
-        subheading: "The following wallets can be used for PKT or wPKT:",
-        subheading_bold: "Mining Wallets",
+        subheading: "Para PKT o wPKT se pueden usar las siguientes billeteras:",
+        subheading_bold: "Billeteras para minar",
     }
 }
